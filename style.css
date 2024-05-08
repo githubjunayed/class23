@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: #000;
+}
+.mid-width{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.col-logo-items img{
+    width: 100px;
+    padding: 10px 0;
+}
+.col-logo-items{
+    width: 10%;
+}
+.col-menu-items{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+
+ 
+}
+.col-menu-items ul{
+    display: flex;
+ justify-content: flex-end;
+
+
+
+
+    
+    
+    
+}
+.col-menu-items ul li{
+    flex-grow: 1;
+}
+.col-menu-items ul li a{
+    display: block;
+text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #fff;
+    margin-left:20px;
+}
+
+.maindiv{
+    display: flex;
+    margin-left: 20px;
+}
+.left{
+    display: flex;
+
+}
+.junayed{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin-top: 20px;
+    display: flex;
+    margin-left:100px;
+   
+}
+.section-div p{
+    background: red;
+
+   align-items: flex-start;
+    padding: 20px 0;
+
+
+}
+
+.red{
+   
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.right{
+    background: #ddd;
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border-left: 2px solid red;
+}
+.right h3{
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+ 
